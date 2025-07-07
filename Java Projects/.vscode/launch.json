@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectRoot": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectRoot": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch StarPyramid",
+            "request": "launch",
+            "mainClass": "StarPyramid",
+            "projectRoot": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeChecker",
+            "request": "launch",
+            "mainClass": "PalindromeChecker",
+            "projectRoot": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeTest",
+            "request": "launch",
+            "mainClass": "PalindromeTest",
+            "projectRoot": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug Current File",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectRoot": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": true
+        }
+    ]
+} 
